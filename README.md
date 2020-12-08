@@ -26,6 +26,6 @@
   if you have any questions, contact me with the information below:
   <br />
   GitHub: [TomxLi](https://github.com/TomxLi)<br />
-  <br />
-  Or Email me with any questions: ralflea@gmail.com<br /><br />
+  or<br />
+  Email me with any questions: ralflea@gmail.com<br /><br />
   
