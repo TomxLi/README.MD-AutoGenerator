@@ -68,6 +68,8 @@ function generateMarkdown(userResponses, userInfo) {
   if you have any questions, contact me with the information below:
   <br />
   GitHub: [${userResponses.username}](https://github.com/${userResponses.username})<br />
+  <br />
+  or Email me with any questions: ${userResponses.email}<br /><br />
   `;
 
   draftMarkdown += draftDev;
