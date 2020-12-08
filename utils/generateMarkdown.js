@@ -63,16 +63,12 @@ function generateMarkdown(userResponses, userInfo) {
   ---
   
   ## Questions
-  ![Developer Profile Picture](${userInfo.avatar_url}) 
-  For any questions, please contact me with the information below:
-  GitHub: [@${userInfo.login}](${userInfo.url})
+  ![Developer Profile Picture](${userInfo.avatar_url})
+  <br />
+  if you have any questions, contact me with the information below:
+  <br />
+  GitHub: [${userResponses.username}](https://github.com/${userResponses.username})<br />
   `;
-
-  if (userInfo.email !== null) {
-  draftDev +=
-  `
-  Email: ${userInfo.email}
-  `};
 
   draftMarkdown += draftDev;
   return draftMarkdown;
