@@ -61,6 +61,11 @@ const questions = [
         ],
         name: 'license'
     }
+    {
+        type: "input",
+        name: "email",
+        message: "Please input your email address"
+    }
 ];
 
 function writeToFile(fileName, data) {
