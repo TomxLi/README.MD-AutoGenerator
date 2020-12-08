@@ -60,7 +60,7 @@ const questions = [
             'Boost Software License 1.0'
         ],
         name: 'license'
-    }
+    },
     {
         type: "input",
         name: "email",
